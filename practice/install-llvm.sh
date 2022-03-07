@@ -16,9 +16,9 @@ LLVM_DIR=/opt/llvm # Edit this directory
 sudo mkdir $LLVM_DIR
 
 # Build LLVM
+# M1 mac users should use AArch64 instead of X86
 cmake -G Ninja -S llvm -B build \
     -DLLVM_ENABLE_PROJECTS="clang;lldb" \
-    # M1 mac users should use AArch64 instead of X86
     -DLLVM_TARGETS_TO_BUILD="X86" \
     -DLLVM_ENABLE_ASSERTIONS=ON \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
