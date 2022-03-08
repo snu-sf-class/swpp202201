@@ -22,5 +22,7 @@ cmake -G Ninja -S llvm -B build \
     -DLLVM_TARGETS_TO_BUILD="X86" \
     -DLLVM_ENABLE_ASSERTIONS=ON \
     -DCMAKE_BUILD_TYPE=RelWithDebInfo \
+    '-DCMAKE_JOB_POOLS:STRING=link=1' \
+    -DCMAKE_JOB_POOL_LINK:STRING=link \
     -DCMAKE_INSTALL_PREFIX=$LLVM_DIR
 sudo cmake --build build --target install
