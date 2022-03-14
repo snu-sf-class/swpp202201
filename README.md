@@ -18,4 +18,4 @@
 - Mar. 14: Assignment 1 is announced. Deadline is Mar. 20, 11:59 PM.
   See here: https://github.com/snu-sf-class/swpp202201-assn1
   - If you cannot compile `word.cpp`, please check whether your `g++` supports `c++17`. `g++ -version` should print version 7 or upper.
-  - Submit to [eTL](TBD)
+  - Submit to [eTL](http://etl.snu.ac.kr/mod/assign/view.php?id=1877255)
