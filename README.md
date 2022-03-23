@@ -19,3 +19,7 @@
   See here: https://github.com/snu-sf-class/swpp202201-assn1
   - If you cannot compile `word.cpp`, please check whether your `g++` supports `c++17`. `g++ -version` should print version 7 or upper.
   - Submit to [eTL](http://etl.snu.ac.kr/mod/assign/view.php?id=1877255)
+- Mar. 23: Assignment 2 has been announced. Deadline is Apr. 3, 11:59 PM.
+  See [here](https://github.com/snu-sf-class/swpp202201/tree/master/practice/assignments/assignment-2)
+  - You should have built LLVM on your computer before doing this assignment.
+  - Submit to [eTL](http://etl.snu.ac.kr/mod/assign/view.php?id=1892528)
