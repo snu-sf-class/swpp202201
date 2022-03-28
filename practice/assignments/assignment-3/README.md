@@ -63,7 +63,7 @@ It is guaranteed that
 run the inputs.
 
 ```
-./polygon.sh <LLVM bin directory(e.g: ~/my-llvm-releaseassert/bin)>
+./polygon.sh <LLVM bin directory(e.g: /<installed-llvm-path>/bin)>
 ```
 
 
@@ -113,7 +113,7 @@ from the entry to BB1.
 ##### How to check
 
 ```
-./unreachable.sh <LLVM bin directory(e.g: ~/my-llvm-releaseassert/bin)>
+./unreachable.sh <LLVM bin directory(e.g: /<installed-llvm-path>/bin)>
 ```
 
 ##### Setting VSCode
@@ -121,9 +121,8 @@ from the entry to BB1.
 Setting VSCode to successfully find header files will be very helpful.
 You will need to update your includePath
 ( https://stackoverflow.com/a/48015407 ).
-Please add these two paths to the includePath:
+Please add the LLVM installation's include directory to the includePath:
 
 ```
-..(your path)../my-llvm-project/llvm/include
-..(your path)../my-llvm-releaseassert/include
+/<installed-llvm-path>/include
 ```
