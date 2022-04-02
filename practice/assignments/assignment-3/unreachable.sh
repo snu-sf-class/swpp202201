@@ -2,7 +2,7 @@
 
 if [ "$#" -ne 1 ]; then
   echo "unreachable.sh <LLVM bin dir>"
-  echo "ex)  ./unreachable.sh ~/my-llvm-releaseassert/bin"
+  echo "ex)  ./unreachable.sh /<llvm-path>/bin"
   exit 1
 fi
 
@@ -21,7 +21,7 @@ LIBS=`$LLVMCONFIG --libs core irreader bitreader support --system-libs`
 SRCROOT=`$LLVMCONFIG --src-root`
 
 CXX=$1/clang++
-CXXFLAGS="$CXXFLAGS -std=c++17 -I\"${SRCROOT}/include\""
+CXXFLAGS="$CXXFLAGS -std=c++17 -I\"${SRCROOT}/include\" -fPIC"
 set -e
 
 $CXX $ISYSROOT $CXXFLAGS $LDFLAGS $LIBS unreachable.cpp -o ./libUnreachable$EXT -shared
