@@ -6,16 +6,16 @@ LLVM_DIR=/opt/llvm-swpp
 Z3_DIR=/opt/z3
 
 # # Download Z3 source
-# git clone -b z3-4.8.15 https://github.com/Z3Prover/z3.git --depth=1
-# cd z3
-# cmake -GNinja -Bbuild \
-#     -DCMAKE_INSTALL_PREFIX=$Z3_DIR
-# cmake --build build
-# sudo cmake --install build
+git clone -b z3-4.8.15 https://github.com/Z3Prover/z3.git --depth=1
+cd z3
+cmake -GNinja -Bbuild \
+    -DCMAKE_INSTALL_PREFIX=$Z3_DIR
+cmake --build build
+sudo cmake --install build
 
 # Download Alive2 source
-# cd ../
-# git clone https://github.com/AliveToolkit/alive2.git
+cd ../
+git clone https://github.com/AliveToolkit/alive2.git
 cd alive2
 
 # Build Alive2
