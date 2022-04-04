@@ -27,3 +27,7 @@
   See [here](https://github.com/snu-sf-class/swpp202201/tree/master/practice/assignments/assignment-3)
   - You should have built LLVM on your computer before doing this assignment.
   - Submit to [eTL](http://etl.snu.ac.kr/mod/assign/view.php?id=1898667)
+- Apr. 4: Assignment 4 has been announced. Deadline is Apr. 13, 11:59 PM.
+  See [here]()
+  - You should have built LLVM on your computer before doing this assignment.
+  - Submit to [eTL](http://etl.snu.ac.kr/mod/assign/view.php?id=1908717)

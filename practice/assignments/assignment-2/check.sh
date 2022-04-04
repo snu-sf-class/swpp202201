@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ "$#" -ne 1 ]; then
   echo "check.sh <clang dir>"
-  echo "(ex: check.sh my-llvm-releaseassert/bin/)"
+  echo "(ex: check.sh /<llvm-dir>/bin/clang)"
   exit 1
 fi
 

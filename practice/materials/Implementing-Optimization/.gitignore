@@ -1,0 +1,5 @@
+.vscode
+constfold.out.ll
+tmp
+*.dylib
+*.so
