@@ -13,6 +13,9 @@
 
 ## Projects
 
+-Apr. 6: [Project guide](project/project.pdf) and [assembly specification](project/asmspec.pdf) is announced.
+Note that the schedule is slightly different from that introduced in class, and we will follow the project document, not the class slides.
+
 ## Assignments
 
 - Mar. 14: Assignment 1 is announced. Deadline is Mar. 20, 11:59 PM.
