@@ -13,7 +13,7 @@
 
 ## Projects
 
--Apr. 6: [Project guide](project/project.pdf) and [assembly specification](project/asmspec.pdf) is announced.
+- Apr. 6: [Project guide](project/project.pdf) and [assembly specification](project/asmspec.pdf) is announced.
 Note that the schedule is slightly different from that introduced in class, and we will follow the project document, not the class slides.
 
 ## Assignments
