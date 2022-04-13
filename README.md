@@ -16,6 +16,7 @@
 - Apr. 6: Please submit your team by Apr. 12 (https://github.com/snu-sf-class/swpp202201/issues/31)
 - Apr. 6: [Project guide](project/project.pdf) and [assembly specification](project/asmspec.pdf) is announced.
 Note that the schedule is slightly different from that introduced in class, and we will follow the project document, not the class slides.
+- Apr. 13: We announced teams for project (https://github.com/snu-sf-class/swpp202201/issues/41).
 
 ## Assignments
 
