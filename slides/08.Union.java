@@ -1,20 +1,22 @@
 class AUB {
     Boolean isA() { throw ...; }
     op0() { throw ...; }
-    opA() { throw ...; }
-    opB() { throw ...; }
+    op1() { throw ...; }
+    op2() { throw ...; }
+    op3() { throw ...; }
 }
 
 class A extends AUB {
     isA() { return true; }
     op0() { ... };
-    opA() { ... };
+    op1() { ... };
+    op2() { ... };
 }
 
 class B extends AUB {
     isA() { return false; }
     op0() { ... };
-    opB() { ... };
+    op3() { ... };
 }
 
 ----------------------
@@ -22,46 +24,44 @@ class B extends AUB {
 interface AUB {
     Boolean isA();
     op0();
-    opA(int x);
-    opB(float y);
+    op1();
+    op2();
+    op3();
 }
 
 class A implements AUB {
     isA() { return true; }
     op0() { ... };
-    opA(int x) { ... };
-    opB(float y ) { throw ... };
+    op1() { ... };
+    op2() { ... };
+    op3() { throw ... };
 }
 
 class B implements AUB {
     isA() { return false; }
     op0() { ... };
-    opB(float y) { ... };
-    opA(int x) { throw ... };
+    op1() { throw ... };
+    op2() { throw ... };
+    op3() { ... };
 }
 
 -------------------------
 
-What is the problem with the interface AUB?   
+What is the problem with the above approaches?   
 
 f(AUB u) {
     u.op0();
-    u.opA(3);  // may trigger exception
-}
-
-f(AUB u) {
-    if (u.isA()) {
-	u.opB(1.2);  // exception
-    }
+    u.op1();  // may trigger exception
 }
 
 f(AUB u) {
     u.op0();
-    if (u.isA()) { u.opA(3); }
-    else { u.opB(1.2); }
+    // but has to know op1, op2 are available when isA(); also op3 when not isA().
+    if (u.isA()) { u.op1(); u.op2(); } 
+    else { u.op3(); }
 }
 
---------------------
+-----------------------
 
 interface AUB {
     op0();
@@ -70,25 +70,27 @@ interface AUB {
 }
 
 interface AI extends AUB {
-    opA();
+    op1();
+    op2();
 }
 
 interface BI extends AUB {
-    opB();
+    op3();
 }
 
 class A implements AI {
     AI getA() { return this; }
     BI getB() { return null; }
     op0() { ... };
-    opA() { ... };
+    op1() { ... };
+    op2() { ... };
 }
 
 class B implements BI {
     AI getA() { return null; }
     BI getB() { return this; }
     op0() { ... };
-    opB() { ... };
+    op3() { ... };
 }
 
 f(AUB u) {
@@ -96,9 +98,8 @@ f(AUB u) {
     BI b;
     u.op0();
     if ((a = u.getA()) != null) {
-	a.opA();
+	a.op1(); a.op2();
     } else if ((b = u.getB()) != null) {
-	b.opB();
+	b.op3();
     } else { throw ...; } // impossible case
 }
-
