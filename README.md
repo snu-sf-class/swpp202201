@@ -17,7 +17,7 @@
 - Apr. 6: [Project guide](project/project.pdf) and [assembly specification](project/asmspec.pdf) is announced.
 Note that the schedule is slightly different from that introduced in class, and we will follow the project document, not the class slides.
 - Apr. 13: We announced teams for project (https://github.com/snu-sf-class/swpp202201/issues/41).
-- Apr. 21: Each team will introduce themselves for 3~5 minutes next Thursday: (https://github.com/snu-sf-class/swpp202201/issues/43)
+- Apr. 21: Each team will introduce themselves for 3~5 minutes (https://github.com/snu-sf-class/swpp202201/issues/43)
 
 ## Assignments
 
@@ -29,7 +29,7 @@ Note that the schedule is slightly different from that introduced in class, and 
   See [here](https://github.com/snu-sf-class/swpp202201/tree/master/practice/assignments/assignment-2)
   - You should have built LLVM on your computer before doing this assignment.
   - Submit to [eTL](http://etl.snu.ac.kr/mod/assign/view.php?id=1892528)
-- Mar. 28: Assignment 3 has been announced. Deadline is Apr. **6**, 11:59 PM.
+- Mar. 28: Assignment 3 has been announced. Deadline is Apr. 6, 11:59 PM.
   See [here](https://github.com/snu-sf-class/swpp202201/tree/master/practice/assignments/assignment-3)
   - You should have built LLVM on your computer before doing this assignment.
   - Submit to [eTL](http://etl.snu.ac.kr/mod/assign/view.php?id=1898667)
