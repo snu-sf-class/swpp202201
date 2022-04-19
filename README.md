@@ -17,7 +17,8 @@
 - Apr. 6: [Project guide](project/project.pdf) and [assembly specification](project/asmspec.pdf) is announced.
 Note that the schedule is slightly different from that introduced in class, and we will follow the project document, not the class slides.
 - Apr. 13: We announced teams for project (https://github.com/snu-sf-class/swpp202201/issues/41).
-- Apr. 21: Each team will introduce themselves for 3~5 minutes (https://github.com/snu-sf-class/swpp202201/issues/43)
+- Apr. 15: Each team will introduce themselves for 3~5 minutes (https://github.com/snu-sf-class/swpp202201/issues/43)
+- Apr. 19: [SWPP assembly specification](project/asmspec.pdf) is updated: await instruction is removed.
 
 ## Assignments
 
