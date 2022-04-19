@@ -37,3 +37,4 @@ Note that the schedule is slightly different from that introduced in class, and 
   See [here](https://github.com/snu-sf-class/swpp202201/tree/master/practice/assignments/assignment-4)
   - You should have built LLVM on your computer before doing this assignment.
   - Submit to [eTL](http://etl.snu.ac.kr/mod/assign/view.php?id=1908717)
+- Apr. 19: The assignment solutions have been announced. See [here](snu-sf-class/swpp202201-solutions)
