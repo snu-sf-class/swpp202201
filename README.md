@@ -20,6 +20,8 @@ Note that the schedule is slightly different from that introduced in class, and 
 - Apr. 15: Each team will introduce themselves for 3~5 minutes (https://github.com/snu-sf-class/swpp202201/issues/43)
 - Apr. 19: [SWPP assembly specification](project/asmspec.pdf) is updated: await instruction is removed.
 - Apr. 20: [SWPP assembly specification](project/asmspec.pdf) is updated: some deprecated descriptions are removed, and return value is added for incr/decr instructions.
+- Apr. 22: [SWPP project document](project/project.pdf) is updated: the entire project schedule
+has been postponed one week.
 
 ## Assignments
 
