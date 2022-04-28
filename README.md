@@ -22,6 +22,7 @@ Note that the schedule is slightly different from that introduced in class, and 
 - Apr. 20: [SWPP assembly specification](project/asmspec.pdf) is updated: some deprecated descriptions are removed, and return value is added for incr/decr instructions.
 - Apr. 22: [SWPP project document](project/project.pdf) is updated: the entire project schedule
 has been postponed one week.
+- Apr. 28: Project repositories are published. (https://github.com/snu-sf-class/swpp202201/issues/48)
 
 ## Assignments
 
